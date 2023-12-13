@@ -1,0 +1,42 @@
+.language-switcher {
+  position: relative;
+
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .language-menu {
+    position: absolute;
+    white-space: nowrap;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+
+    button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 4px;
+      text-align: left;
+    }
+  }
+}
+
+.dark {
+  .language-switcher {
+    button {
+      svg {
+        fill: #FFF
+      }
+    }
+  }
+}

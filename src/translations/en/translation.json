@@ -1,0 +1,16 @@
+{
+    "Command": "Command",
+    "Explorer": "Explorer",
+    "Usage":"Usage",
+    "command copied":"command copied",
+    "Note":"Note",
+    "Normal type speed":"Normal type speed",
+    "Fast type speed":"Fast type speed",
+    "Light Mode":"Light Mode",
+    "Dark Mode":"Dark Mode",
+    
+    "content": {
+        "subtitle": "Find the right commands you need without digging through the web."
+    },
+    "options__title":"I want to:"
+}

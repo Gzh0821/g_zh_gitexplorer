@@ -1,0 +1,16 @@
+{
+    "Command": "命令",
+    "Explorer": "浏览器",
+    "Usage":"用法",
+    "command copied":"复制成功",
+    "Note":"说明",
+    "Normal type speed":"慢速显示",
+    "Fast type speed":"快速显示",
+    "Light Mode":"浅色模式",
+    "Dark Mode":"深色模式",
+
+    "content": {
+        "subtitle": "无需搜索,一键获得正确的git操作命令."
+    },
+    "options__title":"我要做:"
+}

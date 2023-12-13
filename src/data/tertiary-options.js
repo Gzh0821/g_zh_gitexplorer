@@ -26,7 +26,7 @@ export const tertiaryOptions = {
     {
       value: 'patches-introduced',
       label: 'with the patches introduced in each commit',
-      usage : 'git log -p'
+      usage: 'git log -p'
     }
   ],
   branch: [

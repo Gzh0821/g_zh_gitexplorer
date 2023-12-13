@@ -6,6 +6,8 @@ import { optionsFirst, optionsSecond, optionsThird } from 'data';
 import Select from 'react-select';
 import clipboard from 'assets/images/clipboard.svg';
 import classnames from 'classnames';
+import PropTypes from 'prop-types';
+import { withTranslation } from 'react-i18next';
 
 class App extends Component {
   constructor(props) {
@@ -140,23 +142,23 @@ class App extends Component {
       copied
     } = this.state;
     const avgTypingDelay = fastType ? 0 : 50;
-
+    const { t } = this.props;
     return (
       <div className={classnames('home', { dark })}>
         <div className="container home__container">
-          <Nav mode={dark} onToggle={this.handleToggle} fastType={fastType} />
+          <Nav mode={dark} onToggle={this.handleToggle} fastType={fastType} t={t}/>
           <div className="content">
             <div className="row">
               <div className="col-5">
                 <h2 className="content__title  dark-white">
-                  Git <span>Command</span> Explorer
+                  Git <span>{t('Command')}</span> {t('Explorer')}
                 </h2>
                 <p className="content__subtitle dark-grey">
-                  Find the right commands you need without digging through the web.
+                  {t('content.subtitle')}
                 </p>
 
                 <div className="options">
-                  <h4 className="options__title">I want to:</h4>
+                  <h4 className="options__title">{t('options__title')}</h4>
 
                   <Select
                     placeholder="..."
@@ -197,7 +199,7 @@ class App extends Component {
                 <div
                   className={`board__group board__group--1 ${isMobile && !usage ? ' d-none' : ''}`}
                 >
-                  <h2 className="board__title  dark-white">Usage</h2>
+                  <h2 className="board__title  dark-white">{t('Usage')}</h2>
                   <div className="board board--1">
                     <pre>
                       {usage.length ? (
@@ -211,7 +213,7 @@ class App extends Component {
                     {usage.length ? (
                       <div className="copy">
                         <span className={`copy__popover ${copied ? 'show' : ''}`}>
-                          command copied
+                          {t('command copied')}
                         </span>
                         <img
                           className="copy__image"
@@ -225,7 +227,7 @@ class App extends Component {
 
                   {nb ? (
                     <div className="board__group board__group--2">
-                      <h2 className="board__title  dark-white">Note</h2>
+                      <h2 className="board__title  dark-white">{t('Note')}</h2>
                       <div className="board board--2">
                         <pre>
                           <Typist avgTypingDelay={avgTypingDelay} cursor={{ show: false }}>
@@ -246,4 +248,8 @@ class App extends Component {
   }
 }
 
-export default App;
+App.propTypes = {
+  t: PropTypes.func.isRequired,
+};
+
+export default withTranslation()(App);
