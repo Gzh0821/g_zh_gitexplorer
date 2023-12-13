@@ -4,11 +4,15 @@
 ![](https://img.shields.io/github/license/Gzh0821/g_zh_gitexplorer)
 ![](https://img.shields.io/github/stars/Gzh0821/g_zh_gitexplorer)
 
-**The original author seems to have abandoned the project. This is the version forked from the original repository in December 2023.**
+**The original author seems to have abandoned the project. This is the version forked from the [original repository](https://github.com/summitech/gitexplorer/) in December 2023.**
 
 **This project replaces some deprecated npm packages and adds support for i18n localized languages.**
 
 The following is the Readme of the original project:
+
+---
+
+
 
 Table of Contents
 
