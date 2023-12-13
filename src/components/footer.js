@@ -19,7 +19,7 @@ const Footer = props => (
       <a href="https://gaozih.top" target="_blank" rel="noopener noreferrer">
         Gaozih
       </a>© All Rights Reserved. | Origin <span>❤</span> Author:
-      <a href="https://www.summitech.ng" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/summitech/gitexplorer/" target="_blank" rel="noopener noreferrer">
         Summitech
       </a>
       {/* <a
