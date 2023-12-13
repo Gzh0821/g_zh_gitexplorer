@@ -22,8 +22,8 @@ $height: 10px;
 
 .toggler {
   display: inline-block;
-  margin: (($height * 1.4 - $height) / 2) + 5px;
-  margin: (($height * 1.5 - $height) / 2);
+  margin: calc(($height * 1.4 - $height) / 2) + 5px;
+  margin: calc(($height * 1.5 - $height) / 2);
   width: $width;
   height: $height;
   text-align: center;
@@ -45,7 +45,7 @@ $height: 10px;
     width: $width;
     height: $height;
     background: $color-primary;
-    border-radius: $height / 2;
+    border-radius: calc($height / 2);
     position: absolute;
     top: 0;
     left: 0;
@@ -58,9 +58,9 @@ $height: 10px;
     border-radius: 50%;
     background: white;
     position: absolute;
-    top: ($height * 2 - $height) / -2;
+    top: calc(($height * 2 - $height) / -2);
     left: 0;
-    box-shadow: 0 $width / 50 $width / 25 rgba(black, 0.4);
+    box-shadow: 0 calc($width / 50) calc($width / 25) rgba(black, 0.4);
     transition: 0.5s;
     cursor: pointer;
   }
