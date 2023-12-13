@@ -1,4 +1,4 @@
-# GitExplorer
+# GitExplorer (with i18n)
 
 ![](https://img.shields.io/badge/author-Gaozih-%2366ccff)
 ![](https://img.shields.io/github/license/Gzh0821/g_zh_gitexplorer)
