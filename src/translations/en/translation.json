@@ -8,9 +8,33 @@
     "Fast type speed":"Fast type speed",
     "Light Mode":"Light Mode",
     "Dark Mode":"Dark Mode",
-    
+
     "content": {
         "subtitle": "Find the right commands you need without digging through the web."
     },
-    "options__title":"I want to:"
+    "options__title":"I want to:",
+    "options":{
+        "primary":{
+            "add": "add",
+            "commit": "commit",
+            "revert": "revert/reset",
+            "initialize": "initialize",
+            "modify": "modify",
+            "show": "show/view",
+            "delete": "delete/remove",
+            "compareCommits": "compare two commits",
+            "configure": "configure",
+            "clone": "clone",
+            "ignore": "ignore",
+            "rename": "rename",
+            "merge": "merge",
+            "squash": "squash",
+            "stash": "stash",
+            "debug": "debug",
+            "recover": "recover",
+            "synchronize": "synchronize",
+            "rebase": "rebase",
+            "cherrypick": "cherry-pick"
+        }
+    }
 }
