@@ -143,6 +143,10 @@ class App extends Component {
     } = this.state;
     const avgTypingDelay = fastType ? 0 : 50;
     const { t } = this.props;
+    const localizedOptionsFirst = optionsFirst.map(({ value, label }) => ({
+      value,
+      label: t(label),
+    }));
     return (
       <div className={classnames('home', { dark })}>
         <div className="container home__container">
@@ -167,7 +171,7 @@ class App extends Component {
                     isSearchable={true}
                     onChange={this.onFirstChange}
                     value={firstOption}
-                    options={optionsFirst}
+                    options={localizedOptionsFirst}
                   />
 
                   {showSecond ? (

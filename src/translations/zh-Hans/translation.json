@@ -12,5 +12,29 @@
     "content": {
         "subtitle": "无需搜索,一键获得正确的git操作命令."
     },
-    "options__title":"我要做:"
+    "options__title":"我要做:",
+    "options":{
+        "primary":{
+            "add": "添加(暂存)",
+            "commit": "提交",
+            "revert": "还原/重置",
+            "initialize": "初始化",
+            "modify": "调整",
+            "show": "显示/查看",
+            "delete": "删除/移除",
+            "compareCommits": "比较提交",
+            "configure": "配置",
+            "clone": "复制/克隆",
+            "ignore": "忽略",
+            "rename": "重命名",
+            "merge": "合并",
+            "squash": "压缩",
+            "stash": "隐藏",
+            "debug": "调试",
+            "recover": "找回",
+            "synchronize": "同步",
+            "rebase": "变基",
+            "cherrypick": "挑选更改"
+        }
+    }
 }

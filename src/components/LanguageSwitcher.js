@@ -8,6 +8,7 @@ function LanguageSwitcher() {
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
+    document.documentElement.lang = i18n.language || 'en';
     setIsMenuOpen(false);
   };
 
