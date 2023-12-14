@@ -8,11 +8,7 @@
 
 **This project replaces some deprecated npm packages and adds support for i18n localized languages.**
 
-The following is the Readme of the original project:
-
 ---
-
-
 
 Table of Contents
 
@@ -32,37 +28,49 @@ Table of Contents
 
 ### Intro
 
-Last year, we came across [Sarah Drasner&#39;s array explorer](https://github.com/sdras/array-explorer). It is a really cool resource for anyone to easily figure out the best JS array method to use. We loved it and decided to build something similar for Git.
+**The original author seems to have abandoned the project. This is the version forked from the [original repository](https://github.com/summitech/gitexplorer/) in December 2023.**
 
-Website: [Click to find the right git commands without digging through the web.](https://gitexplorer.com)
+**This project replaces some deprecated npm packages and adds support for i18n localized languages.**
 
-Explore and Enjoy!
+*The following is the intro of the original project:*
 
-You can reach us on [the official git explorer twitter handle](https://twitter.com/gitexplorer) or on [Summitech&#39;s twitter handle](https://twitter.com/summitechng).
+*Last year, we came across [Sarah Drasner&#39;s array explorer](https://github.com/sdras/array-explorer). It is a really cool resource for anyone to easily figure out the best JS array method to use. We loved it and decided to build something similar for Git.*
+
+*Website: [Click to find the right git commands without digging through the web.](https://gitexplorer.com)*
+
+*Explore and Enjoy!*
+
+*You can reach us on [the official git explorer twitter handle](https://twitter.com/gitexplorer) or on [Summitech&#39;s twitter handle](https://twitter.com/summitechng).*
 
 ### Tech Stack
 
 - React
 - Netlify
-- Our first hosting platform was [Surge](https://surge.sh). Super easy to set up and very reliable 👍. 100% recommend!
+- ~~Our first hosting platform was Surge. Super easy to set up and very reliable 👍. 100% recommend!~~
+- New repository deployed using [Cloudflare Pages](https://pages.cloudflare.com)
 
-### Installation
+### Installation and Run
 
-```
-yarn (Install all dependencies)
-
+```bash
+# If you do not have yarn installed:
+npm install -g yarn
+# install all dependecies
+yarn 
+# start project in dev server.
 yarn start
 ```
 
-To try GitExplorer in a docker container, run this:
+~~To try GitExplorer in a docker container, run this:~~
 
-```
-docker-compose up
+```bash
+# It has not been verified whether the new repository is compatible to docker.
 ```
 
 ### Makers
 
-Awesome devs and designer at [Summitech](https://summitech.ng)
+Origin Author Link: [Summitech](https://summitech.ng)
+
+New repo pages on :[Gaozih](https://git.gaozih.top)
 
 ### Contribute
 
@@ -144,13 +152,10 @@ show: [
 
 4. Once you are done, add, commit, push and create a PR to Master.
 
-### Donate
-
- You can also contribute to the continued success of the project via donation. Please click this [link](https://rave.flutterwave.com/donate/bavfmdlomzs2).
-
 ### RoadMap
 
 - [X] Enforce HTTPs & offline capabilities
 - [X] Open source
+- [ ] i18n
 - [ ] PWA
 - [ ] Shareable commands
