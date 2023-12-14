@@ -27,7 +27,8 @@
     "eject": "react-scripts eject",
     "lint:check": "eslint . --ext=js,jsx;  exit 0",
     "lint:fix": "eslint . --ext=js,jsx --fix;  exit 0",
-    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && rm -rf yarn.lock && npm install && npm start"
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && rm -rf yarn.lock && npm install && npm start",
+    "deploy":"npx wrangler pages deploy build --project-name gitexplorer"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -39,6 +40,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "wrangler":"^3.20.0",
     "@babel/eslint-parser": "^7.23.3",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-base": "^15.0.0",
