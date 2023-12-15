@@ -156,6 +156,6 @@ show: [
 
 - [X] Enforce HTTPs & offline capabilities
 - [X] Open source
-- [ ] i18n
-- [ ] PWA
+- [X] i18n
+- [X] PWA
 - [ ] Shareable commands
