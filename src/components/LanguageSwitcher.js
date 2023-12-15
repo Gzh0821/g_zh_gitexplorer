@@ -14,7 +14,7 @@ function LanguageSwitcher() {
 
   return (
     <div className="language-switcher">
-      <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
+      <button onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label='switch language'>
         <BiWorld /> {/* Icon for language */}
       </button>
       {isMenuOpen && (
