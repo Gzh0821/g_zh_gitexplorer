@@ -16,7 +16,7 @@ const Footer = props => (
     </div>
     <p className="footer__copyright dark-white">
       Copyright 2021-2023 {' '}
-      <a href="https://gaozih.top" target="_blank" rel="noopener noreferrer">
+      <a href="https://gaozih.com" target="_blank" rel="noopener noreferrer">
         Gaozih
       </a>© All Rights Reserved. | Origin <span>❤</span> Author:
       <a href="https://github.com/summitech/gitexplorer/" target="_blank" rel="noopener noreferrer">
